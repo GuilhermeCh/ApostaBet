@@ -73,11 +73,12 @@ def aposta(valor):
 
         # --- Empate ---
         else:
-            print("Empate! Ninguém ganhou nem perdeu.")
+            print("Empate! Ninguém ganhou nem perdeu.\n")
 
         # --- Verifica se o saldo acabou ---
         if valor <= 0:
             print("Você ficou sem saldo! Fim das apostas.")
             break
+
 
     return valor
